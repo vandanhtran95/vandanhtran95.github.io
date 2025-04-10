@@ -1,0 +1,49 @@
+@charset "utf-8";
+/* CSS Document */
+*{box-sizing: border-box}
+.container{
+    width: 90% ; margin: 0 auto
+}
+.img-100{
+    width: 100%; height: auto
+}
+header{
+    width: 100% ; background-color: hsla(38,14%,70%,1.00) ; height: 40px
+}
+.menu{
+    width: 100%; text-align: center ; padding: 10px
+}
+.menu a{
+    padding: 20px; text-decoration: none ; text-transform: capitalize ; color: antiquewhite ; font-size: 18px
+}
+.menu a:hover{
+    color: black
+}
+/*xong phần header*/
+main{
+    width: 100% ;min-height: 500px ; clear: both 
+}
+.w-25{
+    width: 25% ; padding: 5px;float: left ;  
+}
+.vien{
+    width: 100% ; border: 2px solid hsla(41,14%,70%,1.00) ; margin: 10px ; border-radius: 30px 10px 10px 10px; text-align: center ; background-color: hsla(25,13%,71%,1.00) ; 
+        
+}
+.bo-goc{
+    border-radius: 30px 10px 10px 10px
+}
+.BST{
+    font-size: 20px ; text-transform: capitalize ; padding-top: 10px
+}
+.ma{
+    font-size: 15px ;padding-top: 10px
+}
+.gia{
+    font-size: 15px ;padding-top: 10px;text-transform: capitalize
+}
+footer{
+    width: 100% ; background-color: hsla(41,14%,70%,1.00) ; clear: both; height: 30px ; line-height: 30px
+}
+
+
