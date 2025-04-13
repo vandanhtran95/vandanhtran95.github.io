@@ -1,0 +1,79 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Mountains+of+Christmas&display=swap');
+.mountains-of-christmas-regular {
+  font-family: "Mountains of Christmas", serif;
+  font-weight: 600;
+  font-style: normal;
+}
+h1, h2, h3{
+	font-family: "Mountains of Christmas", serif;
+}
+body{
+	font-family: arial;font-size: 16px; color: #666666; margin: 0
+}
+header{
+	width: 100%;height: 60px;background-color: #DBDBDB; border-bottom: 1px solid darkred
+}
+.menu ul{
+	margin: 0;padding: 0; list-style: none; display: flex
+}
+.menu{
+	padding-top: 18px
+}
+.menu ul li a{
+	padding: 10px 20px; text-decoration: none; text-transform:capitalize; font-size: 17px;font-weight: 500; color: #3E3E3E; border-radius: 20px
+}
+.menu ul li a:hover{
+	background-color: darkred; color: white
+}
+/*phan slider*/
+#slide .owl-dots{ position:absolute; bottom: 10px; left:45%;}
+#slide .owl-dots .owl-dot span {
+      width: 12px;
+      height: 12px; 	
+}
+#slide .owl-nav { position:absolute; left:0px; top:40%; width:100%; }
+#slide .owl-nav [class*='owl-'] {
+	font-size:70px; /*background:rgba(255,255,255,.5);border:1px solid #fff; */ color: #F99092
+}
+
+#slide .owl-nav .owl-next{ position:absolute; right:5%;}
+#slide .owl-nav .owl-prev{ position:absolute; left:5%;}
+#slide .owl-nav [class*='owl-']:hover {
+      background:none;border: none;
+      color:darkred;
+      text-decoration: none; }
+.text-do{
+	color: darkred
+}
+aside ul{
+	margin: 0;padding: 0;list-style: none;display: flex; flex-direction: column
+}
+aside ul li{
+	border-bottom: 1px solid #9E9E9E
+}
+aside ul li a{
+	padding: 10px;display: block;text-decoration: none;color: #666666
+}
+aside ul li a:hover{
+	background-color: darkred; color: white
+}
+footer a{
+	text-decoration: none;color: #666666
+}
+footer a:hover{
+	color: darkred
+}
+.bg-xanh{
+	background-color: #60BDF8
+}
+footer ul{
+	margin: 0;padding: 0;list-style: none; display: flex; flex-direction: column
+}
+footer ul li a{
+	display: block;padding: 10px
+}
+footer ul li a:hover{
+	color: white; font-weight: 600
+}
