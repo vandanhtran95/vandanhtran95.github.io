@@ -1,115 +1,192 @@
 <!doctype html>
 <html>
+
 <head>
-<meta charset="utf-8">
-<title>Thuê Áo Cưới</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="utf-8">
+  <title>Fashion Store</title>
+  <link rel="stylesheet" href="CSS/luoi.css">
+  <link rel="stylesheet" href="CSS/style.css">
+  <link rel="stylesheet" href="CSS/owl.carousel.css">
+  <link rel="stylesheet" href="CSS/owl.theme.default.css">
+  <link rel="stylesheet" href="CSS/all.min.css">
 </head>
 
 <body>
-    <img src="./IMG/Banner.png" alt="" class="img-100">
-    <header>
-        <div class="container">
-        <div class="menu">
-            <a href="#">Trang chủ </a>
-            <a href="#">Về chúng tôi </a>
-            <a href="#">Bộ sưu tập </a>
-            <a href="#">Phụ kiện </a>
-            <a href="#">Trang trí </a>
-            <a href="#">Các dịch vụ khác  </a>
-            <a href="#">Liên hệ </a>
+  <header>
+    <div class="container d-flex justify-between">
+      <div class="logo"><a href="#"><img src="images/logo.png" alt=""></a></div>
+      <div class="menu">
+        <ul>
+          <li><a href="#">home</a></li>
+          <li><a href="#">products</a></li>
+          <li><a href="#">blog</a></li>
+          <li><a href="#">contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </header>
+  <!--xong phần header-->
+  <div class="banner">
+    <div class="owl-carousel owl-theme" id="slide">
+      <div class="item"><img src="images/slide1.jpg" alt=""></div>
+      <div class="item"><img src="images/slide2.jpg" alt=""></div>
+      <div class="item"> <img src="images/slide3.jpg" alt=""> </div>
+    </div>
+  </div>
+  <!--xong phan banner-->
+  <div class="container">
+    <div class="row">
+      <div class="col-4">
+        <aside>
+          <h2 class="text-do">Danh mục sản phẩm</h2>
+          <ul>
+            <li><a href="#">Men Fashion</a></li>
+            <li><a href="#">Ladies Fashion</a></li>
+            <li><a href="#">Children Fashion</a></li>
+            <li><a href="#">Accessories Fashion</a></li>
+          </ul>
+          <br>
+          <br>
+          <h2 class="text-do">Thương hiệu</h2>
+          <ul>
+            <li><a href="#">Gucci</a></li>
+            <li><a href="#">Lacoste</a></li>
+            <li><a href="#">Giovanni</a></li>
+            <li><a href="#">Calvin Klein</a></li>
+          </ul>
+        </aside>
+      </div>
+      <div class="col-8">
+        <main>
+          <h2>Trending Products</h2>
+          <div class="row">
+            <div class="col-3 text-center"> <img src="images/01.webp" alt="" class="img-100">
+              <p class="text-do"><b>Product Name</b></p>
+              <p>Short detail mô tả ngắn sản phẩm</p>
+              <p><b>$50</b></p>
             </div>
+            <div class="col-3 text-center"> <img src="images/02.webp" alt="" class="img-100">
+              <p class="text-do"><b>Product Name</b></p>
+              <p>Short detail mô tả ngắn sản phẩm</p>
+              <p><b>$50</b></p>
+            </div>
+            <div class="col-3 text-center"> <img src="images/03.webp" alt="" class="img-100">
+              <p class="text-do"><b>Product Name</b></p>
+              <p>Short detail mô tả ngắn sản phẩm</p>
+              <p><b>$50</b></p>
+            </div>
+            <div class="col-3 text-center"> <img src="images/04.webp" alt="" class="img-100">
+              <p class="text-do"><b>Product Name</b></p>
+              <p>Short detail mô tả ngắn sản phẩm</p>
+              <p><b>$50</b></p>
+            </div>
+          </div>
+          <h2>Promotion</h2>
+          <div class="row">
+            <div class="col-3 text-center"> <img src="images/k1.webp" alt="" class="img-100">
+              <p class="text-do"><b>Product Name</b></p>
+              <p>Short detail mô tả ngắn sản phẩm</p>
+              <p class="d-flex justify-around"><del>$50</del> <b class="text-do">$30</b></p>
+            </div>
+            <div class="col-3 text-center"> <img src="images/k2.webp" alt="" class="img-100">
+              <p class="text-do"><b>Product Name</b></p>
+              <p>Short detail mô tả ngắn sản phẩm</p>
+              <p class="d-flex justify-around"><del>$50</del> <b class="text-do">$30</b></p>
+            </div>
+            <div class="col-3 text-center"> <img src="images/k3.webp" alt="" class="img-100">
+              <p class="text-do"><b>Product Name</b></p>
+              <p>Short detail mô tả ngắn sản phẩm</p>
+              <p class="d-flex justify-around"><del>$50</del> <b class="text-do">$30</b></p>
+            </div>
+            <div class="col-3 text-center"> <img src="images/k4.webp" alt="" class="img-100">
+              <p class="text-do"><b>Product Name</b></p>
+              <p>Short detail mô tả ngắn sản phẩm</p>
+              <p class="d-flex justify-around"><del>$50</del> <b class="text-do">$30</b></p>
+            </div>
+          </div>
+        </main>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-4">
+          <h4><a href="#">ABC Fashion</a></h4>
+          <p>Women Fashion Online Store - Buy latest women fashion clothing, accessories, makeup & footwear Online at
+            Myntra. Shop from the huge range of women's .</p>
+          <b>Keep in touch</b><br>
+          <a href="#"><i class="fab fa-facebook-square fa-lg"></i></a>
+          <a href="#"><i class="fab fa-twitter-square fa-lg"></i></a>
+          <a href="#"><i class="fab fa-google-plus-square fa-lg"></i></a>
+          <a href="#"><i class="fab fa-youtube-square fa-lg"></i></a>
         </div>
-                
-    </header>
-    <main>
-        <h1  align="center">Đầm Cưới Mới nhất Từ Bridal Wardrobe</h1>
-        <div class="container">
-        <div class="w-25">
-            <div class="vien">
-            <img src="./IMG/AC01.png" alt="" class="img-100 bo-goc">
-                <div class="BST">đầm cưới BTS thu đông</div>
-                <div class="ma"> Mã:AW1801</div>
-                <div class="gia"><b>giá thuê: 3.500.000 VND</b></div>
-               
-            </div>
-        
+        <div class="col-4 bg-xanh text-center">
+          <h4>Userfull link</h4>
+          <ul>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">Terms Of Use</a></li>
+            <li><a href="#">Track Orders</a></li>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Shipping</a></li>
+            <li><a href="#">Cancellation</a></li>
+            <li><a href="#">Return</a></li>
+            <li><a href="#">Sitemap</a></li>
+          </ul>
         </div>
-        <div class="w-25">
-            <div class="vien">
-            <img src="./IMG/AC02.png" alt="" class="img-100 bo-goc">
-                <div class="BST">đầm cưới BTS thu đông</div>
-                <div class="ma"> Mã:AW1802</div>
-                <div class="gia"><b>giá thuê: 3.200.000 VND</b></div>
-               
+        <div class="col-4">
+          <div class="row">
+            <div class="col-3">
+              <img src="images/f1.png" alt="" class="img-100">
             </div>
-        
+            <div class="col-9">
+              <p>
+                <b>
+                  Đảm bảo 100% CHÍNH HÃNG
+                </b>
+                <font style="vertical-align: inherit;">
+                  <font style="vertical-align: inherit;"> cho tất cả các sản phẩm tại abc-fashion.com</font>
+                </font>
+              </p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-3">
+              <img src="images/f2.png" alt="" class="img-100">
+            </div>
+            <div class="col-9">
+              <p>
+                <b>
+                  Trả lại trong vòng 30
+                </b>
+                <font style="vertical-align: inherit;">
+                  <font style="vertical-align: inherit;"> Trả lại trong vòng 30 ngày kể từ khi nhận được đơn hàng của bạn</font>
+                </font>
+              </p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-3">
+              <img src="images/f3.png" alt="" class="img-100">
+            </div>
+            <div class="col-9">
+              <p>
+                <b>
+                  Nhận giao hàng miễn phí
+                </b>
+                <font style="vertical-align: inherit;">
+                  <font style="vertical-align: inherit;"> cho mọi đơn hàng trên 799 Rs.</font>
+                </font>
+              </p>
+            </div>
+          </div>
         </div>
-        <div class="w-25">
-            <div class="vien">
-            <img src="./IMG/AC03.png" alt="" class="img-100 bo-goc">
-                <div class="BST">đầm cưới BTS xuân hè</div>
-                <div class="ma"> Mã:AW1803</div>
-                <div class="gia"><b>giá thuê: 3.300.000 VND</b></div>
-               
-            </div>
-        
-        </div>
-        <div class="w-25">
-            <div class="vien">
-            <img src="./IMG/AC04.png" alt="" class="img-100 bo-goc">
-                <div class="BST">đầm cưới BTS xuân hè</div>
-                <div class="ma"> Mã:AW1804</div>
-                <div class="gia"><b>giá thuê: 3.500.000 VND</b></div>
-               
-            </div>
-        
-        </div>
-        <div class="w-25">
-            <div class="vien">
-            <img src="./IMG/AC11.png" alt="" class="img-100 bo-goc">
-                <div class="BST">đầm cưới BTS hoàng gia</div>
-                <div class="ma"> Mã:AW1805</div>
-                <div class="gia"><b>giá thuê: 3.600.000 VND</b></div>
-               
-            </div>
-        
-        </div>
-        <div class="w-25">
-            <div class="vien">
-            <img src="./IMG/AC06.png" alt="" class="img-100 bo-goc">
-                <div class="BST">đầm cưới BTS hoàng gia</div>
-                <div class="ma"> Mã:AW1806</div>
-                <div class="gia"><b>giá thuê: 3.700.000 VND</b></div>
-               
-            </div>
-        
-        </div>
-        <div class="w-25">
-            <div class="vien">
-            <img src="./IMG/AC07.png" alt="" class="img-100 bo-goc">
-                <div class="BST">đầm cưới BTS fairy tales</div>
-                <div class="ma"> Mã:AW1807</div>
-                <div class="gia"><b>giá thuê: 3.900.000 VND</b></div>
-               
-            </div>
-        
-        </div>
-        <div class="w-25">
-            <div class="vien">
-            <img src="./IMG/AC10.png" alt="" class="img-100 bo-goc">
-                <div class="BST">đầm cưới BTS fairy tales</div>
-                <div class="ma"> Mã:AW1801</div>
-                <div class="gia"><b>giá thuê: 3.800.000 VND</b></div>
-               
-            </div>
-        
-        </div>
-            </div>
-    </main>
-    <footer>
-        <p align="center">Bản quyền thiết kế và thương hiệu thuộc về Bridal Wardrode</p>
-        
-    </footer>
+      </div>
+    </div>
+  </footer>
+  <script src="js/jquery-3.6.0.min.js"></script>
+  <script src="js/owl.carousel.js"></script>
+  <script src="js/control.js"></script>
 </body>
+
 </html>
